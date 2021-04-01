@@ -1,0 +1,45 @@
+{
+  "name": "hwapi-app-theta",
+  "version": "1.0.0",
+  "description": "Ledger Hardware Wallet Theta Application API",
+  "keywords": [
+    "Ledger",
+    "LedgerWallet",
+    "Theta",
+    "NanoS",
+    "Blue",
+    "Hardware Wallet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jingxu85/hwapi-app-theta"
+  },
+  "bugs": {
+    "url": "https://github.com/LedgerHQ/ledgerjs/issues"
+  },
+  "homepage": "https://github.com/LedgerHQ/ledgerjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/Theta.js",
+  "module": "lib-es/Theta.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ledgerhq/cryptoassets": "^5.40.0",
+    "@ledgerhq/errors": "^5.40.0",
+    "@ledgerhq/hw-transport": "^5.40.0",
+    "bignumber.js": "^9.0.1",
+    "rlp": "^2.2.6"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.143.0"
+  },
+  "scripts": {
+    "flow": "flow",
+    "clean": "bash ../../script/clean.sh",
+    "build": "bash ../../script/build.sh",
+    "watch": "bash ../../script/watch.sh",
+    "doc": "bash ../../script/doc.sh"
+  },
+  "gitHead": "fca2c7ce74fdb88df4d59dca4cc0e668410d66af"
+}
